@@ -1,0 +1,394 @@
+body {
+  font-family: "Gill Sans", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 10%;
+  margin-top: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+h1{
+  font-size: 64px;
+  margin-bottom: -10px;
+  color: #F32B46;
+}
+h2{
+  font-size: 36px;
+  margin-bottom: -20px;
+  color: #FF677B;
+}
+h3{
+  color: #F32B46;
+  font-size: 24px;
+}
+p{
+  font-size: 24px;
+}
+img{
+  border-radius: 10px;
+}
+.educ2 img{
+  width: 100%
+}
+
+/*Buttons*/
+button{
+  font-size: 60px;
+  height: 100px;
+  border-radius: 15px;
+  border: 2px solid #F32B46;
+  background: #F32B46;
+  color: #FFF;
+  cursor: pointer;
+}
+button:hover{
+  background: #FF677B;
+  border: 2px solid #FF677B;
+}
+button img{
+  padding-top: 10px;
+}
+
+/*Links*/
+a{
+  text-decoration: none;
+  color: #F32B46;
+}
+a:hover{
+  color: #ff8293;
+}
+
+/*Hamburger Menu and Vertical Drop Down*/
+body {
+  transition: background-color .5s;
+}
+
+nav  {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff2f2d0;
+  padding-top: 0px;
+}
+
+.list {
+    width:200px;
+    font-size: 24px;
+    line-height: 0.75;
+}
+.hamburger-menu .list li{
+  padding-top: 20px;
+  list-style: none;
+}
+
+.list ul{
+  text-decoration: none;
+}
+
+.line1, .line2, .line3 {
+  margin-top:5px;
+  background-color:#F32B46;
+  width:25px;
+  height:3px;
+  display:block;
+  position:relative;
+  opacity:1.0;
+  border-radius:15%;
+  transition: 0.3s;
+}
+
+.line1.active {
+  transform: rotate(270deg);
+  opacity:0.0;
+  top:5px;
+}
+
+.line2.active {
+  transform: rotate(45deg);
+}
+
+.line3.active {
+  transform: rotate(-45deg);
+  top:-7px;
+}
+
+.menuitems {
+  top: 20px;
+  padding-bottom:12px;
+  display: inline-block;
+  position:relative;
+}
+#closebtn {
+  cursor:pointer;
+  height:25px;
+  width:25px;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  margin-right: 50px;
+}
+
+.hamburger-menu {
+  display: block;
+}
+.navigation-menu {
+  display: none;
+}
+
+.hidden {
+  opacity: 0;
+  display: none;
+}
+
+/*
+.exp {
+  position: fixed;
+  height: 225px;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+}
+*/
+@media only screen and (min-width: 800px) {
+ .hamburger-menu {
+  display: none;
+}
+
+.navigation-menu {
+  display: block;
+}
+body{
+  margin-left: 0;
+}
+/*Home Page*/
+.meet{
+  display: flex;
+  height: 500px;
+}
+.meet1{
+  flex-grow: 2;
+  text-align: center;
+  font-size: 24px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.meet2{
+  flex-grow: 1;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 10%;
+}
+.meet2 img{
+  border-radius: 10px;
+  filter: drop-shadow(20px 20px  #F32B46);
+}
+.meet1 p{
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.cont{
+  width: 100%;
+  top:50%;
+  text-align: center;
+  color: #000;
+}
+
+/*About Me Page*/
+.about h1{
+  margin-top: 0px;
+}
+.about{
+  padding: 20px;
+  display:flex;
+}
+.about1{
+  padding-left: 20px;
+  padding-right: 40px;
+}
+.about2{
+  flex-grow: 1;
+  display:flex;
+}
+.about2 img{
+  flex-grow: 1;
+  margin-left: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.course-ed{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 70px;
+}
+.course-ed ul{
+  font-size: 24px;
+}
+
+.course{
+  display: flex;
+}
+.course1{
+  flex-grow: 2;
+  padding-right: 40px;
+}
+.course2{
+  flex-grow: 1;
+  padding-top: 80px;
+}
+.course3{
+  flex-grow: 1;
+  padding-top: 80px;
+}
+
+.educ{
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.educ1{
+  flex-grow: 2;
+  padding-right: 30px;
+}
+.educ2{
+  flex-grow: 1;
+}
+
+
+/*Experience Page*/
+.exp h1{
+  margin-top: 10px;
+}
+.exp {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.exp ul{
+  font-size: 20px;
+  line-height: 2;
+}
+.exp h4{
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+.exp p{
+  font-size: 24px;
+}
+
+.ktbyte{
+  display:flex;
+}
+.ktbyte1{
+  width: 800px;
+}
+.ktbyte2{
+  flex-grow: 1;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.wicc{
+  display:flex;
+}
+.wicc1{
+  width: 800px;
+}
+.wicc2{
+  flex-grow: 1;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.corn-store{
+  display:flex;
+}
+.corn-store1{
+  width: 800px;
+}
+.corn-store2{
+  flex-grow: 1;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.skills_proj{
+  display:flex;
+}
+.proj{
+  flex-grow: 1;
+}
+.skills{
+  flex-grow: 1;
+}
+.skills li{
+  font-size: 24px;
+}
+
+.plate{
+  display: flex;
+}
+.plate1{
+  flex-grow: 1;
+}
+.plate2{
+  flex-grow: 1;
+  display: flex;
+}
+.plate2 img{
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+
+/*Nav Bar*/
+nav{
+  display: flex;
+  background-color: #fff2f2;
+  flex-grow: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:1;
+  opacity: 0.9;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+  font-size: 24px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+  background-image: linear-gradient(#F32B46, #F32B46);
+  background-size: 0% 0.2em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+a:hover {
+  background-size: 100% 0.1em;
+}
+
+/*Buttons*/
+button{
+  width: 110px;
+  height: 110px;
+  border-radius: 25px;
+  margin-left: 15px;
+}
+button img{
+  padding-top: 20px;
+}
+
+/* Fade in Effect on Scroll */
+.tag {
+  opacity: 0;
+  transform: translate(0, 30vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0vh);
+}
+}
