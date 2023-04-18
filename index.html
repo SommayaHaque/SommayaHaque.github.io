@@ -1,1 +1,93 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Welcome</title>
+  <link rel="stylesheet" type="text/css" href="styles/site.css" media="all">
+
+
+</head>
+<body>
+
+  <div class="hamburger-menu">
+    <nav>
+      <div id="topNav" class="navigation">
+        <span id="closebtn" onclick="collapse()">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+        </span>
+      <ul class="list">
+        <li><a class="menuitems" href="index.html">Home</a></li>
+        <li><a class="menuitems" href="about_me.html">About Me</a></li>
+        <li><a class="menuitems" href="experience.html">Experience</a></li>
+      </ul>
+    </div>
+    </nav>
+</div>
+<div class="navigation-menu">
+  <nav>
+    <ul>
+        <li> <a href="index.html">Home</a> </li>
+        <li> <a href="about_me.html">About Me</a> </li>
+        <li> <a href="experience.html">Experience</a> </li>
+    </ul>
+  </nav>
+</div>
+<section class="yellow">
+  <div class="meet">
+    <div class="meet1">
+    <h1>Meet Sommaya</h1>
+      <p>I'm Sommaya Haque and I am a sophomore at Cornell University.
+        I'm an info sci major with a double concentration in UX Design and Data Science, and a minor in business.
+        Use the naviagation to learn more about me or scroll down for my contact information!</p>
+    </div>
+    <div class="meet2">
+    <!-- Source: (original work) Sommaya Haque -->
+    <img src="images/sommaya.png" alt = "Picture of Sommaya">
+    </div>
+  </div>
+</section>
+<section class="tag red">
+  <div class = "cont">
+    <h1>Contact</h1>
+    <p>Feel free to send me a message if you want to get in touch!<br>
+      Contact me via email at sh847@cornell.edu<br></p>
+
+    <button type= "button" onclick =
+     "location.href ='https://www.facebook.com/profile.php?id=100014374863745'">
+    <span>
+      <!-- Source: https://icons8.com/icons/set/facebook-messenger -->
+      <img src="images/messenger.png" alt = "Messenger logo"></span></button>
+
+    <button type= "button" onclick =
+     "location.href='https://www.linkedin.com/in/sommaya-haque'"><span>
+      <!-- Source: https://iconsplace.com/white-icons/linkedin-icon-18/ -->
+      <img src="images/linkedin.png" alt = "Linkedin logo">
+    </span></button>
+
+    <button type= "button" onclick =
+     "location.href='https://github.com/SommayaHaque'"><span>
+    <!-- Source: https://www.flaticon.com/free-icon/github-logo_25231 -->
+    <img src="images/git.png" alt = "Git logo">
+    </span></button>
+
+    <button type= "button" onclick =
+     "location.href='https://gmail.com/'">
+    <span>
+    <!-- Source: https://iconsplace.com/custom-color/gmail-login-icon/ -->
+    <img src="images/gmail.png" alt = "Gmail logo">
+    </span></button>
+  </div><br>
+
+Source: <cite><a href="https://icons8.com/icons/set/facebook-messenger">Messenger Icon</a></cite><br>
+Source: <cite><a href="https://iconsplace.com/white-icons/linkedin-icon-18/">Linkedin Icon</a></cite><br>
+Source: <cite><a href="https://www.flaticon.com/free-icon/github-logo_25231">Github Icon</a></cite><br>
+Source: <cite><a href="https://iconsplace.com/custom-color/gmail-login-icon/">Gmail Icon</a></cite><br>
+
+</section>
+  <script src="scripts/jquery-3.6.1.js"></script>
+  <script src="scripts/cookie-banner.js"></script>
+  <script src="scripts/interactive.js"></script>
+
+</body>
+</html>
