@@ -35,3 +35,12 @@ function collapse() {
       }
     });
   });
+
+  $(document).on("scroll", function() {
+    if ($(".yellow").offset().top < $(window).scrollTop() + $(window).height()-700) {
+      $(".navigation-menu").css("display", "block");
+    } else {
+      $(".navigation-menu").css("display", "none");
+    }
+  });
+
