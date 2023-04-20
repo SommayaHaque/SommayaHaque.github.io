@@ -391,4 +391,71 @@ button img{
   opacity: 1;
   transform: translate(0, 0vh);
 }
+  
+.pink{
+  background-color: #F32B46;
+  margin: 5%;
+  height: 700px;
+}
+.pink h1{
+  left: 50%;
+  color: white;
+  position: fixed;
+}
+
+.scroll-down {
+	position: fixed;
+	left: 50%;
+	bottom: 15%;
+	text-align: center;
+  width: 13px;
+  height: 13px;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+	-webkit-animation: fade_move_down 4s ease-in-out infinite;
+	-moz-animation:    fade_move_down 4s ease-in-out infinite;
+	animation: fade_move_down 4s ease-in-out infinite;
+}
+
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+
+.indexPage.navigation-menu {
+    display: none;
+}
+
+.welcome-nav{
+  left: 50%;
+  top: 30%;
+  position: fixed;
+  line-height: 400%;
+}
+.welcome-nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 36px;
+}
+.welcome-nav a:hover {
+  color:#000
+}
+.welcome-nav li{
+  list-style: none;
+}
+
 }
