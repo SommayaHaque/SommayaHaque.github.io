@@ -1,10 +1,23 @@
+footer {
+	margin-left: 3%;
+	background-color: #FF677B;
+	color: white;
+  height: 200px;
+}
+footer p{
+  padding: 2%;
+}
+
+.exp footer {
+  margin-left: 0;
+}
 body {
   font-family: "Gill Sans", sans-serif;
   line-height: 1.5;
-  margin-bottom: 10%;
   margin-top: 80px;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 3%;
 }
 h1{
   font-size: 64px;
@@ -23,18 +36,16 @@ h3{
 p{
   font-size: 24px;
 }
-img{
-  border-radius: 10px;
-}
-.educ2 img{
-  width: 100%
+
+
+.pink{
+  display: none;
 }
 
 /*Buttons*/
 button{
   font-size: 60px;
   height: 100px;
-  border-radius: 15px;
   border: 2px solid #F32B46;
   background: #F32B46;
   color: #FFF;
@@ -70,7 +81,9 @@ nav  {
   background-color: #fff2f2d0;
   padding-top: 0px;
 }
-
+.welcome-nav{
+  display: none;
+}
 .list {
     width:200px;
     font-size: 24px;
@@ -139,7 +152,9 @@ nav  {
   opacity: 0;
   display: none;
 }
-
+.course li{
+  font-size: 24px;
+}
 /*
 .exp {
   position: fixed;
@@ -179,7 +194,6 @@ body{
   padding-right: 10%;
 }
 .meet2 img{
-  border-radius: 10px;
   filter: drop-shadow(20px 20px  #F32B46);
 }
 .meet1 p{
@@ -191,6 +205,7 @@ body{
   top:50%;
   text-align: center;
   color: #000;
+  margin-bottom: 4%;
 }
 
 /*About Me Page*/
@@ -206,19 +221,14 @@ body{
   padding-right: 40px;
 }
 .about2{
-  flex-grow: 1;
-  display:flex;
-}
-.about2 img{
-  flex-grow: 1;
-  margin-left: 20px;
+  display:block;
   margin-top: auto;
   margin-bottom: auto;
 }
+
 .course-ed{
   margin-left: 40px;
   margin-right: 40px;
-  margin-bottom: 70px;
 }
 .course-ed ul{
   font-size: 24px;
@@ -239,6 +249,13 @@ body{
   flex-grow: 1;
   padding-top: 80px;
 }
+.course img{
+  width: 90%;
+
+}
+.course li{
+  font-size: 24px;
+}
 
 .educ{
   display: flex;
@@ -251,9 +268,16 @@ body{
 }
 .educ2{
   flex-grow: 1;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.educ2 img{
+  width: 100%;
 }
 
-
+.pink{
+  display: block;
+}
 /*Experience Page*/
 .exp h1{
   margin-top: 10px;
@@ -373,7 +397,6 @@ a:hover {
 button{
   width: 110px;
   height: 110px;
-  border-radius: 25px;
   margin-left: 15px;
 }
 button img{
@@ -393,7 +416,7 @@ button img{
 }
   
 .pink{
-  background-color: #F32B46;
+  background-color: #FF677B;
   margin: 5%;
   height: 700px;
 }
@@ -445,6 +468,7 @@ button img{
   top: 30%;
   position: fixed;
   line-height: 400%;
+  display: block;
 }
 .welcome-nav a{
   text-decoration: none;
@@ -452,10 +476,9 @@ button img{
   font-size: 36px;
 }
 .welcome-nav a:hover {
-  color:#000
+  font-size: 44px;
 }
 .welcome-nav li{
   list-style: none;
 }
-
 }
