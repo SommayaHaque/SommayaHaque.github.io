@@ -2,15 +2,25 @@
 .pink{
   display: none;
 }
+.indexbrt2 img{
+  width: 100%;
+  padding: 20px;
+}
 .wisp-thin img{
   width: 100%;
   margin-left: 40px;
 } 
 .educ2 img{
+  width: 100%;
+  max-height: 500px;
+}
+.exp .wisp-thin{
+  margin-left: -40px;
+}
+.exp .educ2 img{
   width: auto;
   max-height: 500px;
 }
-
 /* Organized CSS */
 footer {
 	margin-left: 3%;
@@ -49,7 +59,13 @@ h3{
 p{
   font-size: 24px;
 }
-
+u{
+  text-decoration: none;
+  background-image: linear-gradient(#F32B46, #F32B46);
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 0.08em;
+}
 /*Buttons*/
 button{
   font-size: 60px;
@@ -275,9 +291,6 @@ body{
   margin-left: 40px;
   margin-right: 40px;
 }
-.exp .wisp-thin{
-  margin-left: -40px;
-}
 
 /*All Pages------------------------------------------------------------------------*/
 .flex{
@@ -408,8 +421,5 @@ button img{
   margin-top: auto;
   margin-bottom: auto;
 }
-.indexbrt2 img{
-  width: 100%;
-  padding: 20px;
-}
+
 }

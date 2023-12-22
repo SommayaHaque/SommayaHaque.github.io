@@ -43,7 +43,9 @@ h3{
 p{
   font-size: 24px;
 }
-
+img{
+  width: 100%;
+}
 
 .pink{
   display: none;
@@ -51,7 +53,6 @@ p{
 .brt1 img{
   flex-direction: row;
   width: 30%;
-
 }
 .brt2{
   flex-direction: row;
@@ -111,7 +112,6 @@ nav  {
 .list ul{
   text-decoration: none;
 }
-
 .line1, .line2, .line3 {
   margin-top:5px;
   background-color:#F32B46;
@@ -123,17 +123,14 @@ nav  {
   border-radius:15%;
   transition: 0.3s;
 }
-
 .line1.active {
   transform: rotate(270deg);
   opacity:0.0;
   top:5px;
 }
-
 .line2.active {
   transform: rotate(45deg);
 }
-
 .line3.active {
   transform: rotate(-45deg);
   top:-7px;
