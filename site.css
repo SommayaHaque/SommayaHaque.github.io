@@ -1,3 +1,17 @@
+/* Unorganized CSS */
+.pink{
+  display: none;
+}
+.wisp-thin img{
+  width: 100%;
+  margin-left: 40px;
+} 
+.educ2 img{
+  width: auto;
+  max-height: 500px;
+}
+
+/* Organized CSS */
 footer {
 	margin-left: 3%;
 	background-color: #FF677B;
@@ -7,7 +21,6 @@ footer {
 footer p{
   padding: 2%;
 }
-
 .exp footer {
   margin-left: 0;
 }
@@ -37,16 +50,12 @@ p{
   font-size: 24px;
 }
 
-
-.pink{
-  display: none;
-}
-
 /*Buttons*/
 button{
   font-size: 60px;
   height: 100px;
   border: 2px solid #F32B46;
+  border-radius: 10%;
   background: #F32B46;
   color: #FFF;
   cursor: pointer;
@@ -72,7 +81,6 @@ a:hover{
 body {
   transition: background-color .5s;
 }
-
 nav  {
   width: 100%;
   position: fixed;
@@ -93,11 +101,9 @@ nav  {
   padding-top: 20px;
   list-style: none;
 }
-
 .list ul{
   text-decoration: none;
 }
-
 .line1, .line2, .line3 {
   margin-top:5px;
   background-color:#F32B46;
@@ -109,22 +115,18 @@ nav  {
   border-radius:15%;
   transition: 0.3s;
 }
-
 .line1.active {
   transform: rotate(270deg);
   opacity:0.0;
   top:5px;
 }
-
 .line2.active {
   transform: rotate(45deg);
 }
-
 .line3.active {
   transform: rotate(-45deg);
   top:-7px;
 }
-
 .menuitems {
   top: 20px;
   padding-bottom:12px;
@@ -140,14 +142,12 @@ nav  {
   left: 25px;
   margin-right: 50px;
 }
-
 .hamburger-menu {
   display: block;
 }
 .navigation-menu {
   display: none;
 }
-
 .hidden {
   opacity: 0;
   display: none;
@@ -155,20 +155,15 @@ nav  {
 .course li{
   font-size: 24px;
 }
-/*
-.exp {
-  position: fixed;
-  height: 225px;
-  top: 0px;
-  left: 0px;
-  pointer-events: none;
-}
-*/
+
 @media only screen and (min-width: 800px) {
- .hamburger-menu {
+/*Not Organized*/
+
+
+/*Organized*/
+.hamburger-menu {
   display: none;
 }
-
 .navigation-menu {
   display: block;
 }
@@ -176,6 +171,9 @@ body{
   margin-left: 0;
 }
 /*Home Page*/
+.pink{
+  display: block;
+}
 .meet{
   display: flex;
   height: 500px;
@@ -233,7 +231,6 @@ body{
 .course-ed ul{
   font-size: 24px;
 }
-
 .course{
   display: flex;
 }
@@ -251,12 +248,10 @@ body{
 }
 .course img{
   width: 90%;
-
 }
 .course li{
   font-size: 24px;
 }
-
 .educ{
   display: flex;
   margin-left: 40px;
@@ -271,15 +266,7 @@ body{
   margin-top: auto;
   margin-bottom: auto;
 }
-.educ2 img{
-  width: 100%;
-  max-height: 500px;
 
-}
-
-.pink{
-  display: block;
-}
 /*Experience Page*/
 .exp h1{
   margin-top: 10px;
@@ -288,88 +275,14 @@ body{
   margin-left: 40px;
   margin-right: 40px;
 }
-.exp ul{
-  font-size: 20px;
-  line-height: 2;
-}
-.exp h4{
-  font-size: 24px;
-  margin-bottom: 0px;
-}
-.exp p{
-  font-size: 24px;
+.exp .wisp-thin{
+  margin-left: -40px;
 }
 
-.ktbyte{
-  display:flex;
-}
-.ktbyte1{
-  width: 800px;
-}
-.ktbyte2{
-  flex-grow: 1;
-  padding-top: 50px;
-  padding-left: 20px;
-}
-.wisp img{
-  width: 100%;
-} 
-.wisp-thin img{
-  width: 100%;
-} 
-.wicc{
-  display:flex;
-}
-.wicc1{
-  width: 800px;
-}
-.wicc2{
-  flex-grow: 1;
-  padding-top: 50px;
-  padding-left: 20px;
-}
-
-.corn-store{
-  display:flex;
-}
-.corn-store1{
-  width: 800px;
-}
-.corn-store2{
-  flex-grow: 1;
-  padding-top: 50px;
-  padding-left: 20px;
-}
-
-.skills_proj{
-  display:flex;
-}
-.proj{
-  flex-grow: 1;
-}
-.skills{
-  flex-grow: 1;
-}
-.skills li{
-  font-size: 24px;
-}
-
-.plate{
+/*All Pages------------------------------------------------------------------------*/
+.flex{
   display: flex;
 }
-.plate1{
-  flex-grow: 1;
-}
-.plate2{
-  flex-grow: 1;
-  display: flex;
-}
-.plate2 img{
-  flex-grow: 1;
-  margin-left: 20px;
-}
-
-
 /*Nav Bar*/
 nav{
   display: flex;
@@ -410,26 +323,16 @@ button img{
   padding-top: 20px;
 }
 
-.experienceButtons {
-  display: flex;
-}
-
-.experienceButtons button {
-  flex-grow: 1;
-  height: 200px;
-}
 /* Fade in Effect on Scroll */
 .tag {
   opacity: 0;
   transform: translate(0, 30vh);
   transition: all 1s;
 }
-
 .tag.visible {
   opacity: 1;
   transform: translate(0, 0vh);
 }
-  
 .pink{
   background-color: #FF677B;
   margin: 5%;
@@ -441,6 +344,7 @@ button img{
   position: fixed;
 }
 
+/*Arrow on index.html*/
 .scroll-down {
 	position: fixed;
 	left: 50%;
@@ -448,16 +352,11 @@ button img{
 	text-align: center;
   width: 73px;
   height: 73px;
-  /*border-bottom: 3px solid #fff;
-  border-right: 3px solid #fff;
-  -webkit-transform: translate(-50%, 0%) rotate(45deg);
-  -moz-transform: translate(-50%, 0%) rotate(45deg);*/
   transform: translate(-50%, 0%) rotate(45deg);
 	-webkit-animation: fade_move_down 4s ease-in-out infinite;
 	-moz-animation:    fade_move_down 4s ease-in-out infinite;
 	animation: fade_move_down 1s ease-in-out infinite;
 }
-
 @-webkit-keyframes fade_move_down {
   0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0.5;  }
   50%  { opacity: 1;  }
@@ -474,10 +373,10 @@ button img{
   100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
 }
 
+/* Nav*/
 .indexPage.navigation-menu {
     display: none;
 }
-
 .welcome-nav{
   left: 50%;
   top: 30%;
