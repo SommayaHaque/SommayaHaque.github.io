@@ -307,7 +307,10 @@ body{
 .pink{
   display: block;
 }
-
+.wisp-thin img{
+  width: 100%;
+  padding-left: 20px;
+}
 .prot {
   margin-left: 40px;
 }
