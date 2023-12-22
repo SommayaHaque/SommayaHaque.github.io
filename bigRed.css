@@ -7,7 +7,14 @@ footer {
 footer p{
   padding: 2%;
 }
-
+u{
+  text-decoration: none;
+  background-image: linear-gradient(#F32B46, #F32B46);
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+  background-size: 100% 0.08em;
+}
 .exp footer {
   margin-left: 0;
 }
@@ -41,7 +48,14 @@ p{
 .pink{
   display: none;
 }
+.brt1 img{
+  flex-direction: row;
+  width: 30%;
 
+}
+.brt2{
+  flex-direction: row;
+}
 /*Buttons*/
 button{
   font-size: 60px;
@@ -243,18 +257,17 @@ body{
 }
 .course2{
   flex-grow: 1;
-  padding-top: 80px;
 }
-.course3{
-  flex-grow: 1;
-  padding-top: 80px;
-}
+
 .course img{
   width: 90%;
 
 }
 .course li{
   font-size: 24px;
+}
+.affinity img{
+    width: 100%;
 }
 
 .educ{
@@ -263,7 +276,7 @@ body{
   margin-right: 40px;
 }
 .educ1{
-  flex-grow: 1;
+  flex-grow: 2;
   padding-right: 30px;
 }
 .educ2{
@@ -274,10 +287,31 @@ body{
 .educ2 img{
   width: 100%;
 }
+.brt{
+  margin-left: 40px;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.brt1{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.brt img{
+  flex-direction: row;
+  width: 16%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
 
 .pink{
   display: block;
 }
+
+.blue h2{
+  margin-left: 40px;
+}
+
 /*Experience Page*/
 .exp h1{
   margin-top: 10px;
@@ -366,13 +400,13 @@ body{
 /*Nav Bar*/
 nav{
   display: flex;
-  background-color: white;
+  background-color: #fff2f2;
   flex-grow: 1;
   position: fixed;
   top: 0;
   width: 100%;
   z-index:1;
-  opacity: 1;
+  opacity: 0.9;
 }
 nav ul li{
   list-style: none;
@@ -490,3 +524,4 @@ button img{
   list-style: none;
 }
 }
+
