@@ -264,8 +264,30 @@ body{
   font-size: 24px;
 }
 .affinity img{
-    width: 100%;
+    width: 80%;
 }
+.affinity{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.pics img{
+  width: 100%;
+}
+
+.pics1{
+  display: flex;
+}
+.pics1 img{
+  flex-grow: 1;
+}
+
+.pics2{
+  display: flex;
+}
+.pics2 img{
+  flex-grow: 1;
+}
+
 
 .educ{
   display: flex;
