@@ -51,14 +51,17 @@ function collapse() {
     });
   });
 
-  
+  //THIS is what is making the nav bar show up, fix somehow
+  //nav should only expand if screen is larger than certain width
         $(document).on("scroll", function() {
+          if ($(window).width() > 800) {
             if ($(".yellow").offset().top < $(window).scrollTop() + $(window).height()-700) {
             $(".navigation-menu").css("display", "block");
             } else {
             $(".navigation-menu").css("display", "none");
 
             }
+          }
         });
 
   $(document).on("scroll", function() {
