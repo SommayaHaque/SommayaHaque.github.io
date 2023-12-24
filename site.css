@@ -459,4 +459,24 @@ button img{
   margin-bottom: auto;
 }
 
+.welcome{
+  display:flex;
+}
+
+.welcome-flowers{
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  position: fixed;
+
+}
+.welcome-flowers img{ 
+  padding-top: 30px;
+  margin-top: auto;
+  margin-bottom: auto;  
+  width: 50%;
+}
+.welcome-pink{
+  flex-grow: 1;
+}
 }

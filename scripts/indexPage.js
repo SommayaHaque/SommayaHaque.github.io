@@ -54,7 +54,7 @@ function collapse() {
   
         $(document).on("scroll", function() {
             if ($(".yellow").offset().top < $(window).scrollTop() + $(window).height()-700) {
-            //$(".navigation-menu").css("display", "block");
+            $(".navigation-menu").css("display", "block");
             } else {
             $(".navigation-menu").css("display", "none");
 
@@ -63,12 +63,15 @@ function collapse() {
 
   $(document).on("scroll", function() {
     if ($(".yellow").offset().top < $(window).scrollTop() + $(window).height()-560) {
-      $(".welcome-pink").css("display", "none");
+      $(".welcome").css("display", "none");
       $(".welcome-nav").css("display", "none");
+      $(".arrow").css("display", "none");
 
     } else {
-      $(".welcome-pink").css("display", "block");
+      $(".welcome").css("display", "block");
       $(".welcome-nav").css("display", "block");
+      $(".arrow").css("display", "block");
+
 
     }
   });

@@ -12,7 +12,7 @@ document.getElementById("closebtn").addEventListener("click", function(){
   }});
 
 function collapse() {
-  if (document.getElementById("topNav").style.height == "200px") {
+  if (document.getElementById("topNav").style.height == "250px") {
     document.getElementById("topNav").style.height = "50px";
     document.querySelectorAll(".menuitems").forEach(j => {
       j.classList.add("hidden");
@@ -20,7 +20,7 @@ function collapse() {
       j.style.marginTop="100px";
     });
   } else if (document.getElementById("topNav").style.height == "50px") {
-    document.getElementById("topNav").style.height = "200px";
+    document.getElementById("topNav").style.height = "250px";
     document.querySelectorAll(".menuitems").forEach(j => {
       j.classList.remove("hidden");
       j.style.opacity="1.0";
