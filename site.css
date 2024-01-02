@@ -479,4 +479,13 @@ button img{
 .welcome-pink{
   flex-grow: 1;
 }
+.plateplan{
+  display: flex;
+
+}
+.plateplan img{
+  flex-grow: 1;
+  height: 20%;
+  width: auto;
+}
 }
